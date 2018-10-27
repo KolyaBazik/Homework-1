@@ -21,3 +21,26 @@ body {
     font-weight: lighter;
         color:blue;
 }
+#navigation {
+    height: 65px;
+}
+#navigation ul li {
+    float: left;
+}
+#navigation ul li a {
+    color: aqua;
+    padding: 0 10px;
+    font-family: "Cuprum", sans-serif;
+    text-decoration: none;
+    line-height: 65px;
+    display: block;
+    height: 65px;
+}
+#navigation ul li a:hover {
+    background: rgba(222, 32, 32, 0.83);
+    text-decoration: underline;
+}
+
+#navigation .dropdown {
+    
+}
